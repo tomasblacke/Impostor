@@ -313,3 +313,7 @@ function volverAlMenu() {
     select.value = '';
     palabrasFiltradas = [];
 }
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+}

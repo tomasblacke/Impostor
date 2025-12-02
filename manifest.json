@@ -1,0 +1,22 @@
+{
+    "name": "Impostor - El Juego",
+    "short_name": "Impostor",
+    "description": "Juego de impostores para jugar con amigos",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#474747",
+    "theme_color": "#474747",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
