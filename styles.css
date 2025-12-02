@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+#menu-seleccion, #game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+#game-opt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#game-opt > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: whitesmoke;
+    color: rgb(71, 71, 71);
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 300ms;
+    background-color: aquamarine;
+    color: black;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input[type="range"] {
+    width: 300px;
+    margin: 10px 0;
+}
+
+select {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: rgb(71, 71, 71);
+    border: none;
+    text-align: center;
+}
+
+#timer {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#papel {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#revelation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
