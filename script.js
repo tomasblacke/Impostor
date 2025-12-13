@@ -221,7 +221,7 @@ function empezarJuego() {
     // Elegir palabra
     palabraActual = elegirPalabraRandom();
     
-    // Crear array de jugadores (false = no impostor, true = impostor)
+   
     jugadores = Array(cantidadJugadores).fill(false);
     
     // Asignar impostores random
@@ -292,7 +292,7 @@ function iniciarCuentaRegresiva() {
             const jugadorInicia = Math.floor(Math.random() * jugadores.length) + 1;
             papel.textContent = `🎮 Empieza Jugador ${jugadorInicia}`;
             btnMenu.style.display = 'inline-block';
-            iniciarTimer(); // ← Esto faltaba
+            iniciarTimer();
         }
     }, 1000);
 }
